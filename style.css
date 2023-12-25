@@ -60,5 +60,20 @@ body {
     min-height: 100vh;
 }
 
+.card-container {
+    background-color: var(--neutral-clr-100);
+    border: 1px solid var(--neutral-clr-600);
+    box-shadow: 7px 7px 0px 0px var(--neutral-clr-600);
+    border-radius: 20px;
+    overflow: hidden;
+    margin-inline: 25px;
+    margin-bottom: 20px;
+    padding: 20px;
+    max-width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .attribution { font-size: 12px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
