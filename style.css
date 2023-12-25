@@ -74,6 +74,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    transition: 0.3s;
+}
+
+.card-container:hover {
+    box-shadow: 15px 15px 0px 0px var(--neutral-clr-600);
+    transition: 0.3s;
 }
 
 .article-img {
