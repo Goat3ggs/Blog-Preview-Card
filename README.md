@@ -4,5 +4,5 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- [Solution URL: ](https://www.frontendmentor.io/solutions/blog-preview-card-2g3rdb0BtY)
-- [Live Site URL: ](https://goat3ggs.github.io/Blog-Preview-Card/)
+- [Solution URL](https://www.frontendmentor.io/solutions/blog-preview-card-2g3rdb0BtY)
+- [Live Site URL](https://goat3ggs.github.io/Blog-Preview-Card/)
