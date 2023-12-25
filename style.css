@@ -1,0 +1,17 @@
+:root {
+    /* Primary Clr */
+    --primary-predom-clr: hsl(47, 88%, 63%);
+
+    /* Neutral Clr */
+    --neutral-clr-100: hsl(0, 0%, 100%); /* lightest */
+    --neutral-clr-300: hsl(0, 0%, 50%); /* mid-light */
+    --neutral-clr-600:  hsl(0, 0%, 7%); /* darkest */
+
+    --ff-default: 'Figtree', sans-serif; 
+    --fs-base: 1rem; /* 16px */
+    --fw-semiBold: 600;
+    --fw-extraBold: 800;
+}
+
+.attribution { font-size: 12px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
