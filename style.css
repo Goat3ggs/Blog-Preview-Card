@@ -76,6 +76,10 @@ body {
     gap: 20px;
 }
 
+.article-img {
+    border-radius: 10px;
+}
+
 .button > button {
     background-color: var(--primary-predom-clr);
     border: none;
