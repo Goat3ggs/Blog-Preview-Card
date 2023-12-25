@@ -50,7 +50,15 @@ h1 {
     overflow-wrap: break-word;
 }
 
+body {
+    background-color: var(--primary-predom-clr);
+    font-family: var(--ff-default);
+    font-size: var(--fs-base);
 
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
 
 .attribution { font-size: 12px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
