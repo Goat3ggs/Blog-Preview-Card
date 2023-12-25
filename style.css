@@ -69,11 +69,50 @@ body {
     margin-inline: 25px;
     margin-bottom: 20px;
     padding: 20px;
-    max-width: 350px;
+    max-width: 360px;
 
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
+
+.button > button {
+    background-color: var(--primary-predom-clr);
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    font-weight: var(--fw-extraBold);
+}
+
+.date {
+    font-size: 13px;
+}
+
+h1 {
+    font-weight: var(--fw-extraBold);
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: var(--primary-predom-clr);
+}
+
+.info {
+    color: var(--neutral-clr-300);
+    line-height: 1.5;
+}
+
+.flex-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: var(--fw-extraBold);
+}
+
+.flex-group > img {
+    height: 35px;
+}
+
 .attribution { font-size: 12px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
